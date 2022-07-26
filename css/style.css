@@ -1,0 +1,1418 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+
+
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.181);
+    
+}
+
+
+
+
+.navgation a{
+   
+   
+        
+        text-decoration: none;
+        position: relative;
+        top: -050px;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        color: #33383b;
+        
+        float: right;
+       
+}
+
+#navgationcontainer a:hover{
+    font-size: 20px;
+    color: rgb(236, 147, 32);
+    transition: 500ms;
+    
+}
+.logo{
+    width: 90px;
+    margin-left: 20px;
+}
+
+/*Fim barra de navegação*/
+
+/*Inicio banner*/
+
+
+#bannercontainer{
+   clear: both;
+}
+.banner{
+    width: 1000px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 60px;
+    
+    
+
+
+}
+/*Fim banner*/
+
+/*Inicio SOBRE NOS somos*/
+
+
+#sobrenoscontainer{
+    position: relative;
+    margin: 0px auto;
+   
+}
+
+.texto1{
+    text-align: center;
+}
+
+.quemsomos{
+    width: 35%;
+    height: 400px;
+    padding: 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    
+}
+
+.textoquemsomos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    float: right;
+    position: relative;
+    top:130px;
+    right: 100px;
+    color: rgb(169, 133, 34);
+    border-radius: 20px;
+    
+   
+   
+
+    
+}
+
+.textoquemsomos strong{
+    color: orange;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.texto2{
+    clear: both;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+/*NOSSO CARDAPIO */
+
+
+
+
+
+
+
+
+.img1 , .img2 , .img3 , 
+.img4 , .img5 , .img6{
+    
+    
+   
+    border-radius: 20px;
+    border: solid 6px orange;
+    padding: 8px;
+    margin-left: 25px;
+    width: 340px;
+    height: 350px;
+}
+
+
+
+
+.img1:hover , .img2:hover , .img3:hover , 
+.img4:hover , .img5:hover , .img6:hover {
+
+    border: solid 6px rgb(61, 53, 36);
+    padding: 10px;
+    transition: 800ms;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+.eventos{
+    text-align: center;
+}
+
+.photo{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+#cardapiododia{
+   
+    margin-left: 20px;
+}
+
+
+
+
+
+.texto3{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+
+
+.fundo{
+    border-radius: 30px;
+    background:#e3e3e3;
+    width:300px;
+    height:400px;
+    padding:5px;
+    margin-left: 50px;
+   
+    background-image:url('/img/photo2.png');
+    background-position:center;
+    background-size:cover;
+    
+    }
+
+
+    
+    .fundo h2{
+        color:  rgb(243, 255, 19);
+    }
+    
+    .fundo a{
+        text-decoration: none;
+        border: solid 2px rgb(243, 255, 19);
+        border-radius: 20px;
+        padding: 10px;
+        color:  rgb(243, 255, 19);
+        margin-top: 40px;
+        background-color: rgba(14, 11, 11, 0.27);
+        transition: 700ms;
+    }
+
+    .fundo a:hover{
+
+        padding: 14px;
+
+    }
+    
+    .frente{
+        border-radius: 30px;
+      opacity:0;
+      width:100%;
+      height:100%;
+      background:#a3a3a39c;
+      color:#fff;
+      transition: all .2s;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      transform: scale(0.9);
+      font-family:verdana;
+    
+    }
+    
+    .frente:hover{
+      opacity:1;
+      transform: scale(1);
+      transition: 900ms;
+    }
+
+
+
+
+    .fundo2{
+        border-radius: 30px;
+        float: right;
+
+        margin-top: -410px;
+        margin-right: 30px;
+        
+
+        background:#e3e3e3;
+        width:300px;
+        height:400px;
+        padding:5px;
+        background-image:url('/img/photo.png');
+        background-position:center;
+        background-size:cover;
+       
+        }
+
+
+
+        .fundo2 h2{
+            color:  brown;
+        }
+        
+        .fundo2 a{
+            text-decoration: none;
+            border: solid 2px brown;
+            border-radius: 20px;
+            padding: 10px;
+            color:  brown;
+            margin-top: 40px;
+            background-color: rgba(14, 11, 11, 0.27);
+            transition: 700ms;
+        }
+
+        .fundo2 a:hover{
+
+            padding: 14px;
+
+        }
+        
+        .frente2{
+            border-radius: 30px;
+          opacity:0;
+          width:100%;
+          height:100%;
+          background:#a3a3a39c;
+          color:#fff;
+          transition: all .2s;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction:column;
+          transform: scale(0.9);
+          font-family:verdana;
+          
+        }
+        
+        .frente2:hover{
+          opacity:1;
+          transform: scale(1);
+          transition: 900ms;
+        }
+
+
+
+
+        .fundo3{
+            border-radius: 30px;
+            float: right;
+            margin-top: -410px;
+            margin-right: 450px;
+            background:#e3e3e3;
+            width:300px;
+            height:400px;
+            padding:5px;
+            background-image:url('/img/photo3.png');
+            background-position:center;
+            background-size:cover;
+           
+            }
+
+            .fundo3 h2{
+                color:  greenyellow;
+            }
+            
+            .fundo3 a{
+                text-decoration: none;
+                border: solid 2px greenyellow;
+                border-radius: 20px;
+                padding: 10px;
+                color:  greenyellow;
+                margin-top: 40px;
+                background-color: rgba(14, 11, 11, 0.27);
+                transition: 700ms;
+            }
+
+            .fundo3 a:hover{
+
+                padding: 14px;
+
+            }
+
+
+            .frente3{
+                border-radius: 30px;
+              opacity:0;
+              width:100%;
+              height:100%;
+              background:#a3a3a39c;
+              color:#fff;
+              transition: all .2s;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              flex-direction:column;
+              transform: scale(0.9);
+              font-family:verdana;
+            
+            }
+            
+            .frente3:hover{
+              opacity:1;
+              transform: scale(1);
+              transition: 900ms;
+            }
+    
+
+
+
+
+
+
+            form {
+               
+                font-family: Arial;
+                margin-top: 80px;
+                padding: 20px;
+              }
+              
+              #containerform {
+                
+                padding: 20px;
+                background-color: #f1f1f1;
+              }
+
+              #containerform h2{
+                color: orange;
+                text-align: center;
+              }
+
+              #containerform p{
+                text-indent: 110px;
+              }
+              
+              input[type=text], input[type=submit] {
+                width: 100%;
+                padding: 12px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+              }
+              
+              input[type=checkbox] {
+                margin-top: 16px;
+              }
+              
+              input[type=submit] {
+                background-color: #cdc121;
+                color: white;
+                border: none;
+              }
+              
+              input[type=submit]:hover {
+                opacity: 0.5;
+                transition: 900ms;
+              }
+
+
+
+
+
+
+              .footer-distributed{
+                background: #444;
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+                box-sizing: border-box;
+                width: 100%;
+                font: bold 16px sans-serif;
+                text-align: left;
+                padding: 50px 60px 40px;
+                overflow: hidden;
+            }
+            
+            section {
+              width: 100%;
+              display: inline-block;
+              background: #ccc;
+              height: 60vh;
+              text-align: center;
+              font-size: 22px;
+              font-weight: 700;
+              text-decoration: underline;
+            }
+            
+            
+            /* Footer left */
+            
+            .footer-distributed .footer-left{
+                float: left;
+            }
+            
+            /* The company logo */
+            
+            .footer-distributed h3{
+                color:  #ffffff;
+                font: normal 36px 'Roboto', cursive;
+                margin: 0 0 10px;
+            }
+            
+            .footer-distributed h3 span{
+                color:  #e6bf13;
+            }
+            
+            /* Footer links */
+            
+            .footer-distributed .footer-links{
+                color:  #ffffff;
+                margin: 0 0 10px;
+                padding: 0;
+            }
+            
+            .footer-distributed .footer-links a{
+                display:inline-block;
+                line-height: 1.8;
+                text-decoration: none;
+                color:  inherit;
+            }
+            
+            .footer-distributed .footer-company-name{
+                color:  #8f9296;
+                font-size: 14px;
+                font-weight: normal;
+                margin: 0;
+                margin-top: 20px;
+                
+               
+            }
+
+            .footer-left a:hover{
+                color: #e6bf13;
+            }
+            
+            /* Footer social icons */
+            
+            .footer-distributed .footer-icons{
+                margin-top: 20px;
+            }
+            
+            .footer-distributed .footer-icons a{
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+                background-color:  #33383b;
+                border-radius: 9px;
+            
+                font-size: 20px;
+                color: #ffffff;
+                text-align: center;
+                line-height: 35px;
+            
+                margin-right: 3px;
+                margin-bottom: 5px;
+            }
+
+
+            .footer-distributed .footer-icons a:hover{
+
+                background-color: rgb(255, 255, 255);
+                color: black;
+            }
+            
+            /* Footer Right */
+            
+            .footer-distributed .footer-right{
+                float: right;
+            }
+            
+
+            .mapas {
+                width: 500px;
+                height: 250px;
+                margin-top: -25px;
+                
+            }
+
+        
+            
+            
+           
+            
+            
+            
+            
+            /* Responsividaede  1200px*/
+            
+            @media (max-width: 1200px) {
+
+
+                .banner{
+                    width: 900px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 18px;
+                    color: rgb(169, 133, 34);
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 220px;
+                    margin-left: 60px;
+                    padding: 1;
+                    
+                    
+
+                }
+                .fundo3{
+                    margin-right: 355px;
+                }
+                
+                .fundo{
+                    margin-right: -200px;
+                }
+
+
+            }
+
+
+
+
+            @media (max-width: 1199px) {
+
+
+                .banner{
+                    width: 900px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 18px;
+                    color: rgb(169, 133, 34);
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 270px;
+                    margin-left: 60px;
+                    padding: 1;
+                    
+                    
+
+                }
+                .fundo3{
+                    margin-right: 400px;
+                }
+
+                
+                
+
+
+            }
+
+
+            @media (max-width: 1100px) {
+
+
+                .banner{
+                    width: 900px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 18px;
+                    color: rgb(169, 133, 34);
+                    right: 80px;
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 240px;
+                    margin-left: 55px;
+                    padding: 1;
+                    
+                    
+
+                }
+                
+                .fundo{
+                    width: 240px;
+
+                }
+
+                .fundo2{
+                    width: 240px;
+
+                }
+
+                .fundo3{
+                    width: 240px;
+                    margin-right: 350px;
+                }
+                
+
+
+            }
+
+
+            @media (max-width: 1000px) {
+
+
+                .banner{
+                    width: 900px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 17px;
+                    right: 50px;
+                    color: rgb(169, 133, 34);
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 215px;
+                    margin-left: 45px;
+                    padding: 1;
+                    
+                    
+
+                }
+
+
+                .fundo{
+                    width: 220px;
+                    margin-left: 50px;
+                    
+                }
+
+                .fundo2{
+                    width: 220px;
+                    margin-right: 60px;
+
+                }
+
+                .fundo3{
+                    width: 220px;
+                    margin-right: 330px;
+                }
+                
+                .mapas{
+                    width: 400px;
+                    padding: 2px;
+                    margin-right: -30px;
+                }
+
+            }
+
+
+
+            @media (max-width: 900px) {
+
+
+                .banner{
+                    width: 760px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 17px;
+                    color: rgb(169, 133, 34);
+                    right: 20px;
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 190px;
+                    margin-left: 40px;
+                    padding: 1;
+                    
+                    
+
+                }
+
+                #cardapio{
+                    position: relative;
+                    margin: 0px auto;
+                }
+                .fundo{
+                    width: 200px;
+                    border-radius: 10px;
+                    margin-left: 50px;
+                    
+
+            
+
+                }
+
+                .fundo2{
+                    width: 200px;
+                    border-radius: 10px;
+                    
+                }
+
+                .fundo3{
+                    width: 200px;
+                    border-radius: 10px;
+                    margin-right: 290px;
+                    
+                }
+                
+                .mapas{
+                    width:340px;
+                    padding: 2px;
+                    margin-right: -50px;
+                }
+
+            }
+
+
+
+
+
+
+
+
+
+            @media (max-width: 800px) {
+
+
+                .banner{
+                    width: 600px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 15px;
+                    color: rgb(169, 133, 34);
+                    right: 140px;
+                    top: 40px;
+                    margin-bottom: 80px;
+                }
+
+                .quemsomos{
+                    width: 540px;
+                    height: 20%;
+                    display: block;
+                    margin: 0px auto;
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 200px;
+                    margin-left: 70px;
+                    padding: 1;
+                    
+                    
+
+                }
+
+
+                .fundo{
+                    width: 180px;
+
+                }
+
+                .fundo2{
+                    clear: both;
+                    width: 180px;
+                    margin-right: 45px;
+
+                }
+
+                .fundo3{
+                    clear: both;
+                    width: 180px;
+                    margin-right: 250px;
+                }
+                
+                .mapas{
+                    width: 450px;
+                    padding: 2px;
+                    margin-right: -30px;
+                    margin-top: 40px;
+                }
+
+            }
+
+
+            @media (max-width: 700px) {
+
+
+                .banner{
+                    width: 500px;
+                  
+                }
+
+                /* QUEM SOMOS */
+                .textoquemsomos{
+                    font-size: 15px;
+                    color: rgb(169, 133, 34);
+                    right: 90px;
+                    top: 40px;
+                    margin-bottom: 80px;
+                }
+
+                .quemsomos{
+
+                    width: 500px;
+                    height: 20%;
+
+                }
+
+                /*NOSSO CARDAPIO */
+
+
+                
+
+                .img1 , .img2 , .img3 , 
+                .img4 , .img5 , .img6 {
+
+                    width: 400px;
+                    display: inline-block;
+                    margin: 0px auto;
+                    position: relative;
+                    top: 10%;
+                    left: 20%;
+                    transform: translate(-50,-50);
+                    padding: 1;
+                    
+                    
+
+                }
+
+
+                .fundo{
+                    width: 400px;
+                    position: relative;
+                    display: block;
+                    margin: 0px auto;
+                    top: 40px;
+                    margin-bottom: 550px;
+                    margin-left: 80px;
+
+                }
+
+                .fundo2{
+                    width: 220px;
+                    margin-right: 10px;
+
+                }
+
+                .fundo3{
+                    width: 220px;
+                    margin-right: 300px;
+                }
+                
+                .mapas{
+                    width: 400px;
+                    padding: 2px;
+                    margin-left: -50px;
+                }
+
+               
+
+            }
+
+            
+
+
+
+
+              
+            
+           
+                
+            
+
+            @media (max-width: 600px) {
+
+                #navgationcontainer{
+                   
+                    margin-top: 30px;
+                }
+            
+            #navgationcontainer a{
+               
+                width: 569px;
+                padding: 8px;
+                
+                color: white;
+                background:#33383b;
+                clear: both;
+                text-align: center;
+                
+                
+            }
+
+
+            #navgationcontainer a:hover{
+
+            background-color:#e6bf13;
+            color: black;
+            border-radius: 1px;
+            }
+            
+            
+    
+
+
+            .logo{
+
+               margin-left:2px ;
+                width: 1px;
+               
+                
+    
+            }
+        
+
+    
+            /*Fim barra de navegação*/
+
+/*Inicio banner*/
+
+.banner{
+    width: 480px;
+    height: 300px;
+    display: block;
+    margin: 0px auto;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+    .texto1{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+
+    .textoquemsomos{
+        font-size: 14px;
+        color: rgb(169, 133, 34);
+        right: 70px;
+        top: 40px;
+        margin-bottom: 90px;
+    }
+
+
+    .quemsomos{
+        width: 420px;
+        height: 20%;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .img1 , .img2 , .img3 , 
+    .img4 , .img5 , .img6 {
+
+                    width: 400px;
+                    display: block;
+                    margin: 0px auto;
+                    position: relative;
+                    top: 10%;
+                    left: 1%;
+                    transform: translate(-50,-50);
+                    padding: 1;
+                    
+                    
+
+                }
+
+
+                .fundo{
+                    width: 400px;
+                    
+                    top: 40px;
+                    margin-bottom: 550px;
+                    margin-left: 90px;
+
+                }
+
+                .fundo2{
+                   
+                    width: 200px;
+                    margin-right: 50px;
+                    
+                }
+
+                .fundo3{
+                    width: 200px;
+                    margin-right: 320px;
+                    
+                }
+
+
+                .mapas{
+                    width: 450px;
+                    padding: 2px;
+                    margin-left: 90px;
+                }
+                
+
+
+
+            
+}
+
+
+
+@media (max-width: 500px) {
+
+            #navgationcontainer{
+                   
+                    margin-top: 30px;
+                }
+            
+            #navgationcontainer a{
+               
+                width: 569px;
+                padding: 8px;
+                
+                color: white;
+                background:#33383b;
+                clear: both;
+                text-indent: 100px;
+                
+                
+            }
+
+
+            #navgationcontainer a:hover{
+
+            background-color:#e6bf13;
+            color: black;
+            border-radius: 1px;
+            }
+            
+            
+    
+
+
+            .logo{
+
+               margin-left:2px ;
+                width: 1px;
+               
+                
+    
+            }
+        
+
+    
+            /*Fim barra de navegação*/
+
+/*Inicio banner*/
+
+.banner{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0px auto;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+    .texto1{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .quemsomos{
+        margin-top: 40px;
+        width: 390px;
+    }
+
+
+    .textoquemsomos{
+        font-size: 15px;
+        color: rgb(169, 133, 34);
+        right: 10px;
+        top: 40px;
+        margin-bottom: 80px;
+    }
+
+    
+
+    .img1 , .img2 , .img3 , 
+    .img4 , .img5 , .img6 {
+
+                    width: 350px;
+                    display: block;
+                    margin: 0px auto;
+                    position: relative;
+                    top: 10%;
+                    left: 1%;
+                    transform: translate(-50,-50);
+                    padding: 1;
+
+                    
+                    
+
+                }
+
+                .texto3{
+                    margin-top: 70px;
+                    margin-bottom: 20px;
+                }
+
+                .fundo{
+                    width: 300px;
+                    
+                    top: 40px;
+                    margin-bottom: 500px;
+                    margin-left: 50px;
+
+                }
+
+                .fundo2{
+                    width: 150px;
+                    margin-right: 35px;
+
+                }
+
+                .fundo3{
+                    width: 150px;
+                    margin-right: 230px;
+                }
+
+                .container>p{
+                    font-size: 20px;
+                     text-align: left;
+                }
+
+
+                .mapas{
+                    width: 310px;
+                    padding: 2px;
+                    margin-left: 90px;
+                }
+                
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+
+    #navgationcontainer{
+           
+            margin-top: 30px;
+        }
+    
+    #navgationcontainer a{
+       
+        width: 569px;
+        padding: 8px;
+        
+        color: white;
+        background:#33383b;
+        clear: both;
+        text-indent: 100px;
+        
+        
+    }
+
+
+    #navgationcontainer a:hover{
+
+    background-color:#e6bf13;
+    color: black;
+    border-radius: 1px;
+    }
+    
+    
+
+
+
+    .logo{
+
+       margin-left:2px ;
+        width: 1px;
+       
+        
+
+    }
+
+
+
+    /*Fim barra de navegação*/
+
+/*Inicio banner*/
+
+.banner{
+width: 320px;
+height: 300px;
+display: block;
+margin: 0px auto;
+padding-top: 0px;
+margin-bottom: 20px;
+border-radius: 10px;
+
+}
+.texto1{
+text-align: center;
+font-size: 30px;
+margin-top: 40px;
+}
+
+
+.quemsomos{
+    width: 300px;
+}
+
+.textoquemsomos{
+font-size: 10px;
+color: rgb(12, 12, 12);
+right: 60px;
+top: 40px;
+margin-bottom: 80px;
+}
+
+
+
+.img1 , .img2 , .img3 , 
+.img4 , .img5 , .img6 {
+
+            width: 300px;
+            display: block;
+            margin: 0px auto;
+            position: relative;
+            top: 10%;
+            left: 1%;
+            transform: translate(-50,-50);
+            padding: 1;
+            
+            
+
+        }
+
+
+        .fundo{
+            width: 250px;
+            
+            top: 40px;
+            margin-bottom: 500px;
+            margin-left: 80px;
+
+        }
+
+        .fundo2{
+            width: 120px;
+            margin-right: 40px;
+
+        }
+
+        .fundo3{
+            width: 120px;
+            margin-right: 200px;
+        }
+
+
+        .mapas{
+            width: 300px;
+            padding: 2px;
+            margin-left: 90px;
+        }
+        
+
+
+}
+       
+          
+            
